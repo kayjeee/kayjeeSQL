@@ -5,7 +5,7 @@
   <img src="./assets/diagram.png" alt="logo"/>
   <br/>
 
-  <h3><b>Welcome to my project</b></h3>
+  <h3><b>Welcome to my project </b></h3>
 
 </div>
 
@@ -91,11 +91,11 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Otmane Echchafyky**
+👤 **kayjeee**
 
-- GitHub: [@otmaneechchafyky](https://github.com/kayjeee)
-- Twitter: [@EchchafykyO](https://twitter.com/schoolspun)
-- LinkedIn: [otmane-echchafyky](https://www.linkedin.com/in/kagiso-sebogodi/)
+- GitHub: [@kayjeee](https://github.com/kayjeee)
+- Twitter: [@kayjeee](https://twitter.com/schoolspun)
+- LinkedIn: [kayjeee](https://www.linkedin.com/in/kagiso-sebogodi/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +114,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/otmaneechchafyky/vet_linic_database/issues).
+Feel free to check the [issues page](https://github.com/kayjeee/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
