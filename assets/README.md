@@ -93,7 +93,7 @@ Example:
 
 👤 **kayjeee**
 
-- GitHub: [@kayjeee](https://github.com/kayjeee)
+- GitHub: [@kayjeee](https://github.com/kayjeee/)
 - Twitter: [@kayjeee](https://twitter.com/schoolspun)
 - LinkedIn: [kayjeee](https://www.linkedin.com/in/kagiso-sebogodi/)
 
