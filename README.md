@@ -100,7 +100,8 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<coming soon>)
+- [Live Demo Link n](<coming soon>)
+        coming soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,7 +158,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank micro verse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
