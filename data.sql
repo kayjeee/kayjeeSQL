@@ -47,10 +47,6 @@ ROLLBACK;
 -- Verify that the species column went back to the original state (optional)
 SELECT * FROM animals;
 
--- Inside a transaction update the animals table by setting the species column to digimon for all animals that have a name ending in mon.
--- Update the animals table by setting the species column to pokemon for all animals that don't have species already set.
--- Verify that changes were made.
-COMMIT;
 
 BEGIN;
 
@@ -61,11 +57,6 @@ UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
 UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
 
 -- Verify the changes (optional)
-SELECT * FROM animals;
-
-COMMIT;
-
--- Verify that changes persist after commit (optional)
 SELECT * FROM animals;
 
 -- Inside a transaction delete all records in the animals table, then roll back the transaction.
@@ -81,3 +72,41 @@ ROLLBACK;
 
 -- Verify that all records in the animals table still exist (optional)
 SELECT * FROM animals;
+
+-- Inside a transaction:
+-- Update the animals table by setting the species column to digimon for all animals that have a name ending in 'mon'.
+-- Update the animals table by setting the species column to pokemon for all animals that don't have species already set.
+-- Verify that changes were made.
+BEGIN;
+
+-- Update species to 'digimon' for animals whose name ends in 'mon'
+UPDATE animals SET species = 'digimon' WHERE name LIKE '%mon';
+
+-- Update species to 'pokemon' for animals without a species set
+UPDATE animals SET species = 'pokemon' WHERE species IS NULL;
+
+-- Verify the changes (optional)
+SELECT * FROM animals;
+
+-- Answering the additional questions
+
+-- How many animals are there?
+SELECT COUNT(*) AS total_animals FROM animals;
+
+-- How many animals have never tried to escape?
+SELECT COUNT(*) AS never_escaped FROM animals WHERE escape_attempts = 0;
+
+-- What is the average weight of animals?
+SELECT AVG(weight_kg) AS average_weight FROM animals;
+
+-- Who escapes the most, neutered or not neutered animals?
+SELECT neutered, MAX(escape_attempts) AS max_escape_attempts FROM animals GROUP BY neutered;
+
+-- What is the minimum and maximum weight of each type of animal?
+SELECT species, MIN(weight_kg) AS min_weight, MAX(weight_kg) AS max_weight FROM animals GROUP BY species;
+
+-- What is the average number of escape attempts per animal type of those born between 1990 and 2000?
+SELECT species, AVG(escape_attempts) AS average_escape_attempts FROM animals WHERE date_of_birth BETWEEN '1990-01-01' AND '2000-12-31' GROUP BY species;
+
+-- Rollback the transaction
+ROLLBACK;
