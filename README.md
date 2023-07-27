@@ -65,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [kayjeesql  ] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This a project about a relational database to create the initial data structure for a vet clinic. You will create a table to store animals' information, insert some data into it, and query it.
 
 **[kayjeesql]** is a...
 
@@ -73,21 +73,7 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
+> This a project about a relational database to create the initial data structure for a vet clinic. You will create a table to store animals' information, insert some data into it, and query it.
 
 <details>
 <summary>Database</summary>
