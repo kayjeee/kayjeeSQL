@@ -93,8 +93,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link n](<coming soon>)
-        coming soon
+- N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
