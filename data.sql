@@ -1,5 +1,3 @@
--- data.sql
-
 -- INSERT animals data
 INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, weight_kg, species_id, owner_id)
 VALUES ('Agumon', '2020-02-03', 0, TRUE, 10.23, 2, 1),
@@ -14,7 +12,7 @@ VALUES ('Agumon', '2020-02-03', 0, TRUE, 10.23, 2, 1),
        ('Blossom', '1998-10-13', 3, TRUE, 17, 1, 4),
        ('Ditto', '2022-05-14', 4, TRUE, 22, 1, NULL);
 
--- INSERT owners data
+-- INSERT owners dat okay
 INSERT INTO owners (full_name, age) VALUES 
     ('Sam Smith', 34),
     ('Jennifer Orwell', 19),

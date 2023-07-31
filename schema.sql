@@ -79,3 +79,8 @@ CREATE TABLE visits (
   FOREIGN KEY (vet_id) REFERENCES vets(id), -- Ensure the vet_id references an existing vet.
   FOREIGN KEY (animal_id) REFERENCES animals(id) -- Ensure the animal_id references an existing animal.
 );
+
+-- Create indexes to improve query performance.
+CREATE INDEX ON visits (animal_id);
+CREATE INDEX ON visits (vet_id);
+CREATE INDEX ON owners (email);
