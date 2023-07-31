@@ -17,3 +17,5 @@ CREATE TABLE IF NOT EXISTS animals (
   weight_kg DECIMAL(5, 2) NOT NULL,
   species VARCHAR(50)
 );
+-- Add the 'species' column to the 'animals' table
+ALTER TABLE animals ADD COLUMN species VARCHAR(50);
